@@ -78,7 +78,13 @@ A: Please use one of the following shortcodes:
 == Screenshots ==
 
 1. Live Scores Settings
-2. Live Scores in Action
+2. Live Scores in Red Template
+3. Live Scores in Green Template
+4. Live Scores in White Template
+5. Live Scores in Black Template
+6. Live Scores in Orange Template
+7. Live Scores in Blue Template
+8. Live Scores in Gray Template
 
 == Changelog ==
 1st version release.
