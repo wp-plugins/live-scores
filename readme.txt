@@ -7,7 +7,7 @@ License: GPL v2
 Tested up to: 4.1
 Stable tag: 1.0.0
 
-Free Live Scores covering up to 7 sport events.
+No ADS. Free Live Scores for Football, Tennis, Basketball, Ice Hockey, Baseball, American Football & Handball. 7 Templates available.
 
 == Description ==
 
