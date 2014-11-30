@@ -40,49 +40,49 @@ add_action( 'wp_enqueue_scripts', 'lswenc' );
 function lswstyle1(){
 ?>
 <script>
-__initLivescore({"c1":"29852C","c2":"49B44C","c4":"FFFFFF","c5":"D2EEC4","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"29852C","c2":"49B44C","c4":"FFFFFF","c5":"D2EEC4","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
 function lswstyle2(){
 ?>
 <script>
-__initLivescore({"c1":"D43021","c2":"E71414","c4":"FFFFFF","c5":"D2EEC4","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"D43021","c2":"E71414","c4":"FFFFFF","c5":"D2EEC4","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
 function lswstyle3(){
 ?>
 <script>
-__initLivescore({"c1":"154BEC","c2":"1548E1","c4":"FFFFFF","c5":"155EEC","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"154BEC","c2":"1548E1","c4":"FFFFFF","c5":"155EEC","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
 function lswstyle4(){
 ?>
 <script>
-__initLivescore({"c1":"696763","c2":"BABCC3","c4":"FFFFFF","c5":"155EEC","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"696763","c2":"BABCC3","c4":"FFFFFF","c5":"155EEC","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
 function lswstyle5(){
 ?>
 <script>
-__initLivescore({"c1":"F7A241","c2":"BABCC3","c4":"FFFFFF","c5":"EC9A15","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"F7A241","c2":"BABCC3","c4":"FFFFFF","c5":"EC9A15","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
 function lswstyle6(){
 ?>
 <script>
-__initLivescore({"c1":"F0F0F0","c2":"BABCC3","c4":"FFFFFF","c5":"FFFFFF","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"F0F0F0","c2":"BABCC3","c4":"FFFFFF","c5":"FFFFFF","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
 function lswstyle7(){
 ?>
 <script>
-__initLivescore({"c1":"0D0D0D","c2":"000000","c4":"FBFBFB","c5":"060606","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"AUTO","selected_tab":"all"});
+__initLivescore({"c1":"0D0D0D","c2":"000000","c4":"FBFBFB","c5":"060606","c6":"C90000","affiliate_id":"81748101","menu":"1","sportFK":"1","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
 </script>
 <?php
 }
