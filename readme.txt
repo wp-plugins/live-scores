@@ -1,7 +1,7 @@
 ﻿=== LiveScore ===
 Contributors: lswjohn
 Donate link: http://livescores.website/wordpress-plugin/
-Tags: livescore, live score, live scores, livescores, live, scores, football, baseball, rugby, nfl, tennis, basketball, handball, american football, xscores, score, results, widget, plugin, posts, post, page, pages, image, images, link, links
+Tags: livescore, live score, live scores, livescores, live, scores, football, baseball, rugby, nfl, tennis, basketball, handball, american football, xscores, score, results, widget, plugin, posts, post, page, pages, image, images, link, links, sports, sport, widget, admin, leagues, soccer, tennis, feed, news, results, hockey
 Requires at least: 3.5
 License: GPL v2
 Tested up to: 4.1
