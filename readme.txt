@@ -23,24 +23,46 @@ The wordpress plugin 'Live Scores' is covering up to 7 sport events.
 * Baseball
 * Handball
 
-= Easy as 1,2,3 =
+For Football Live Scores.
 
-To add the Live Scores to your website use one of the following short codes:
-
-
+****** Available Shortcodes *********
 [livescores-red] - Red Layout
-
 [livescores-green] - Green Layout
-
 [livescores-white] - White Layout
-
 [livescores-black] - Black Layout
-
 [livescores-orange] - Orange Layout
-
 [livescores-blue] - Blue Layout
-
 [livescores-gray] - Gray Layout
+
+For Tennis Live Scores.
+
+****** Available Shortcodes *********
+[livescores-tennis] - Default White Layout
+
+For Basketball Live Scores.
+
+****** Available Shortcodes *********
+[livescores-basketball] - Default White Layout
+
+For Ice Hockey Live Scores.
+
+****** Available Shortcodes *********
+[livescores-icehockey] - Default White Layout
+
+For American Football Live Scores.
+
+****** Available Shortcodes *********
+[livescores-americanfootball] - Default White Layout
+
+For Baseball Live Scores.
+
+****** Available Shortcodes *********
+[livescores-baseball] - Default White Layout
+
+For Handball Live Scores.
+
+****** Available Shortcodes *********
+[livescores-handball] - Default White Layout
 
 
 = Is it 100% FREE? =

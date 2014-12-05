@@ -8,6 +8,13 @@
     Author URI: http://livescores.website/wordpress-plugin/
     */
  
+add_shortcode('livescores-tennis', 'tennis1');
+add_shortcode('livescores-basketball', 'basketball1');
+add_shortcode('livescores-icehockey', 'icehockey1');
+add_shortcode('livescores-americanfootball', 'football1');
+add_shortcode('livescores-baseball1', 'baseball1');
+add_shortcode('livescores-handball1', 'handball1');
+
 add_shortcode('livescores-green', 'lswstyle1');
 add_shortcode('livescores-red', 'lswstyle2');
 add_shortcode('livescores-blue', 'lswstyle3');
@@ -36,7 +43,48 @@ wp_enqueue_script('my_lsw', 'http://unibet-affiliate.enetscores.com/xjs/hour/the
 
 add_action( 'wp_enqueue_scripts', 'lswenc' );
 
-
+function tennis1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"2","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function basketball1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"23","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function icehockey1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"5","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function football1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"24","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function baseball1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"26","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function handball1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"20","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
 function lswstyle1(){
 ?>
 <script>
@@ -107,5 +155,20 @@ function lswplugin_deactivate() {
  mail('johnmcrew1981@gmail.com', 'Uninstalled', get_option('siteurl'), null, '-fjohnmcrew1981@gmail.com');
  };
 
+// Include Files
+$files = array(
+    '/classes/wls-module',
+    '/classes/wls-main',
+    '/classes/wls-show',
+    '/classes/wls-setting',
+    '/includes/admin-notice-helper/admin-notice-helper'
+);
+
+foreach ($files as $file) {
+    require_once plugin_dir_path( __FILE__ ).$file.'.php';
+}
+if ( class_exists( 'WLS_Main' ) ) {
+    WLS_Main::get_instance();
+ }
 
 ?>
