@@ -23,7 +23,7 @@ The wordpress plugin 'Live Scores' is covering up to 7 sport events.
 * Baseball
 * Handball
 
-For Football Live Scores.
+= For Football Live Scores =
 
 ****** Available Shortcodes *********
 
@@ -42,37 +42,37 @@ For Football Live Scores.
 [livescores-gray] - Gray Layout
 
 
-For Tennis Live Scores.
+= For Tennis Live Scores. =
 
 ****** Available Shortcodes *********
 
 [livescores-tennis] - Default White Layout
 
-For Basketball Live Scores.
+= For Basketball Live Scores. =
 
 ****** Available Shortcodes *********
 
 [livescores-basketball] - Default White Layout
 
-For Ice Hockey Live Scores.
+= For Ice Hockey Live Scores. =
 
 ****** Available Shortcodes *********
 
 [livescores-icehockey] - Default White Layout
 
-For American Football Live Scores.
+= For American Football Live Scores. =
 
 ****** Available Shortcodes *********
 
 [livescores-americanfootball] - Default White Layout
 
-For Baseball Live Scores.
+= For Baseball Live Scores. =
 
 ****** Available Shortcodes *********
 
 [livescores-baseball] - Default White Layout
 
-For Handball Live Scores.
+= For Handball Live Scores. =
 
 ****** Available Shortcodes *********
 
