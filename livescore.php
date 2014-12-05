@@ -4,7 +4,7 @@
     Plugin URI: http://livescores.website/wordpress-plugin/
     Description: Display our free live scores widget in your website. No advertisements!!
     Author: lswjohn
-    Version: 1.0
+    Version: 1.1
     Author URI: http://livescores.website/wordpress-plugin/
     */
  
