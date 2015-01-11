@@ -32,7 +32,7 @@ if ( ! class_exists( 'WLS_Show' ) ) {
             if (is_single() || is_page()) {
 
                 if (WLS_Main::$settings['wls_author_linking'] == '1') {
-                    echo '<div style="z-index:999999;text-align: center;">Live Scores Plugin provided by <a href="http://livescores.website">http://livescores.website</a></div>' . "\n";
+                    echo '<div style="z-index:999999;text-align: center;">Live Scores powered by <a href="http://livescores.website">livescores.website</a></div>' . "\n";
                 }
             }
         }
