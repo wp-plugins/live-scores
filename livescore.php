@@ -3,11 +3,17 @@
     Plugin Name: Live Scores
     Plugin URI: http://livescores.website/wordpress-plugin/
     Description: Display our free live scores widget in your website. No advertisements!!
-    Author: lswjohn
-    Version: 1.0
-    Author URI: http://livescores.website/wordpress-plugin/
+    Author: lswjohns
+    Version: 1.4
+    Author URI: http://livescores.website/
     */
- 
+
+add_shortcode('livescores-tennis', 'tennis1');
+add_shortcode('livescores-basketball', 'basketball1');
+add_shortcode('livescores-icehockey', 'icehockey1');
+add_shortcode('livescores-americanfootball', 'football1');
+add_shortcode('livescores-baseball1', 'baseball1');
+add_shortcode('livescores-handball1', 'handball1');
 add_shortcode('livescores-green', 'lswstyle1');
 add_shortcode('livescores-red', 'lswstyle2');
 add_shortcode('livescores-blue', 'lswstyle3');
@@ -36,7 +42,48 @@ wp_enqueue_script('my_lsw', 'http://unibet-affiliate.enetscores.com/xjs/hour/the
 
 add_action( 'wp_enqueue_scripts', 'lswenc' );
 
-
+function tennis1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"2","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function basketball1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"23","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function icehockey1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"5","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function football1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"24","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function baseball1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"26","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
+function handball1(){
+?>
+<script>
+__initLivescore({"c1":"FFFFFF","c2":"616161","c4":"FFFFFF","c5":"454545","c6":"2ED611","affiliate_id":"81748101","menu":"0","sportFK":"20","odds":"decimal","lang":"3","timezone":"EET","selected_tab":"inprogress"});
+</script>
+<?php
+}
 function lswstyle1(){
 ?>
 <script>

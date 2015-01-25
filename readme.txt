@@ -5,7 +5,7 @@ Tags: livescore, live score, live scores, livescores, live, scores, football, ba
 Requires at least: 3.5
 License: GPL v2
 Tested up to: 4.1
-Stable tag: 1.3
+Stable tag: 1.4
 
 No ADS. Free Live Scores for Football, Tennis, Basketball, Ice Hockey, Baseball, American Football & Handball. 7 Templates available.
 
