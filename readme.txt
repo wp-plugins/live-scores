@@ -1,7 +1,7 @@
 ﻿=== LiveScore ===
 Contributors: lswjohn
 Donate link: http://livescores.website/
-Tags: livescore, live score, live scores, livescores, live, scores, football, baseball, rugby, nfl, tennis, basketball, handball, american football, xscores, score, results, widget, plugin, posts, post, page, pages, image, images, link, links, sports, sport, widget, admin, leagues, soccer, tennis, results, hockey
+Tags: livescore, live score, live scores, livescores, live, scores, football, baseball, rugby, nfl, tennis, basketball, handball, american football, xscores, score, results, widget, plugin, posts, post, page, pages, image, images, link, links, sports, sport, widget, admin, leagues, soccer, tennis, results, hockey, soccer
 Requires at least: 3.5
 License: GPL v2
 Tested up to: 4.1
@@ -117,8 +117,8 @@ A: Please use one of the following shortcodes:
 == Installation ==
 
 1. Upload the `live-scores` folder to the `/wp-content/plugins/` directory
-1. Activate the WordPress SEO plugin through the 'Plugins' menu in WordPress
-1. Configure the plugin by going to the `WP SEO Wizard` menu that appears in your admin menu
+1. Activate the Live Scores through the 'Plugins' menu in WordPress
+1. Configure the plugin by going to the `Live Scores` menu that appears in your admin menu
 
 == Changelog ==
 1st version release.
